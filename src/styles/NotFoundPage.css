@@ -1,0 +1,51 @@
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+  }
+  
+  .not-found h1 {
+    font-size: 8rem;
+    margin-bottom: 0;
+    opacity: 0.8;
+  }
+  
+  .light .not-found h1 {
+    color: #ff4d6d;
+  }
+  
+  .dark .not-found h1 {
+    color: #ff748c;
+  }
+  
+  .not-found p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .home-link {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+  }
+  
+  .light .home-link {
+    background-color: #ff4d6d;
+    color: white;
+  }
+  
+  .dark .home-link {
+    background-color: #ff748c;
+    color: white;
+  }
+  
+  .home-link:hover {
+    transform: translateY(-3px);
+  }

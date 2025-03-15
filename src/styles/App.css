@@ -1,0 +1,30 @@
+/* styles/App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app.light {
+  background-color: #f8e1e8;
+  color: #333;
+}
+
+.app.dark {
+  background-color: #262833;
+  color: #f1f1f1;
+}
+
+
+
+
+
+
